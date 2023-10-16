@@ -17,7 +17,7 @@ public class TP1_convertisseur {
      */
     public static void main(String[] args) {
         
-          Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int choix;
 
         System.out.println("Menu de conversion :");
