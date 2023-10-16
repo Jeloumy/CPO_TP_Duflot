@@ -27,7 +27,6 @@ public class TP2Bieres_Duflot {
         System.out.println(autreBiere) ;
         
         BouteilleBiere deuxBiere = new BouteilleBiere("Leffe de Noël", (float) 6.6,"Abbaye de Leffe") ;
-        deuxBiere.Decapsuler();
         System.out.println(deuxBiere);
         
         BouteilleBiere troisBiere = new BouteilleBiere("Bock", (float) 8.0,"Allez l'OL !") ;
