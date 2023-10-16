@@ -16,7 +16,9 @@ public class TP2_convertisseurObjet_Duflot {
     public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
         int choix;
-
+       
+        Convertisseur c = new Convertisseur(); 
+        
        do 
        {System.out.println("Menu de conversion :");
         System.out.println("1. Celsius vers Kelvin");
@@ -36,7 +38,6 @@ Scanner sc = new Scanner(System.in);
         double resultat = 0.0;
         boolean continuer = true;
         
-        Convertisseur c = new Convertisseur(); 
 
         switch (choix) {
             case 1:
